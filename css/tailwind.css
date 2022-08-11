@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+  }
+}
+@layer components {
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 32px;
+  }
+  .second-container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button {
+    transition: all 0.2s linear;
+  }
+  .button:hover {
+    opacity: 0.85;
+    transform: scale(1.1);
+  }
+  li {
+    cursor: pointer;
+    transition: all 0.2s linear;
+  }
+  li:hover {
+    color: #2b6f3e;
+  }
+}

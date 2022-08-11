@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/201/201623.png">
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div style="background-image: url('./images/hero.png'); height: 800px;" class="bg-no-repeat bg-cover ">
+        <!-- Nav -->
+        <div class="main-container flex items-center justify-between">
+            <div class="w-[90px] h-[56px] ">
+                <a class="w-full h-full object-cover" href="#"><img src="./images/Travel.png" alt=""></a>
+            </div>
+            <ul class=" md: flex gap-x-8  ">
+                <a href="#">
+                    <li class="text-[18px] text-white">Home</li>
+                </a>
+                <a href="#about">
+                    <li class="text-[18px] text-white">About</li>
+                </a>
+                <a href="#discover">
+                    <li class="text-[18px] text-white">Discover</li>
+                </a>
+                <a href="#place">
+                    <li class="text-[18px] text-white">Place</li>
+                </a>
+            </ul>
+        </div>
+        <!-- Text Hero -->
+        <div class="mt-20 mb-6 text-center align-middle ">
+            <p class="text-white text-2xl font-semibold">Discover your place</p>
+            <h2 class="text-white text-5xl">Explore The Best <strong class="font-semibold">Beautiful Beachs</strong>
+            </h2>
+        </div>
+        <div class="flex items-center justify-center mb-9">
+            <a href="#" class=" bg-[#2B6F3E] px-5 py-[10px] text-white font-semibold rounded-lg button ">Explore</a>
+        </div>
+        <div class="flex items-center justify-center gap-x-9 text-white transition-all cursor-pointer">
+            <div class="text-3xl font-semibold hover:text-[#2B6F3E]">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+            <div class="text-3xl font-semibold hover:text-[#2B6F3E]">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+            <div class="text-3xl font-semibold hover:text-[#2B6F3E]">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-[1440px] mx-auto">
+        <!-- About -->
+        <div id="about" class="second-container">
+            <div class="py-[100px]">
+                <div class="flex gap-x-[15px] items-center justify-center">
+                    <div class="min-w-[200px] h-[236px]">
+                        <img class="w-full h-full object-cover mt-8" src="./images/about-1.png" alt="">
+                    </div>
+                    <div class="min-w-[200px] h-[236px]">
+                        <img class="w-full h-full object-cover" src="./images/about-2.png" alt="">
+                    </div>
+                    <div class="ml-12">
+                        <p class="text-3xl font-semibold mb-6">More information about the best beachs</p>
+                        <p class="max-w-md mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+                            purus
+                            sit
+                            amet
+                            luctus venenatis, lectus magna fringilla urna, otestate. Quae omnia in nostra sententia,
+                            pursuit
+                        </p>
+                        <a href="#"
+                            class="bg-[#2B6F3E] px-5 py-[10px] text-white font-semibold rounded-lg button ">Explore
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Discover -->
+        <div id="discover" class="second-container">
+            <div class="pb-[100px]">
+                <h3 class="text-center font-semibold text-3xl mb-10">Discover The Most Attractive Places</h3>
+                <div class="flex flex-wrap gap-x-8">
+                    <div class="max-w-[274px] h-[346px] relative hover:scale-105 transition-transform">
+                        <img class="w-full h-full object-cover " src="./images/discover1.png" alt="">
+                        <div class="absolute left-4 bottom-4 text-white">
+                            <p class="text-2xl font-semibold">Pakis Beach</p>
+                            <p class="">Karawang, Indonesian</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[274px] h-[346px] relative hover:scale-105 transition-transform">
+                        <img class="w-full h-full object-cover " src="./images/discover2.png" alt="">
+                        <div class="absolute left-4 bottom-4 text-white">
+                            <p class="text-2xl font-semibold">Pakis Beach</p>
+                            <p class="">Karawang, Indonesian</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[274px] h-[346px] relative hover:scale-105 transition-transform">
+                        <img class="w-full h-full object-cover " src="./images/discover3.png" alt="">
+                        <div class="absolute left-4 bottom-4 text-white">
+                            <p class="text-2xl font-semibold">Pakis Beach</p>
+                            <p class="">Karawang, Indonesian</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Place -->
+        <div id="place" class="second-container">
+            <div class="pb-[100px]">
+                <h3 class="text-center font-semibold text-3xl mb-10">Explore Beautiful Place</h3>
+                <div class="flex flex-wrap gap-x-8">
+                    <div class="max-w-[274px] h-[346px] relative hover:scale-105 transition-transform">
+                        <img class="w-full h-full object-cover " src="./images/place1.png" alt="">
+                        <div
+                            class="absolute left-4 bottom-4 text-black w-[85%] h-[78px] bg-white rounded-lg text-center py-3">
+                            <p class="text-2xl font-semibold ">Drini Beach</p>
+                            <p class="text-[#959595]">Yogyakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[274px] h-[346px] relative hover:scale-105 transition-transform">
+                        <img class="w-full h-full object-cover " src="./images/place2.png" alt="">
+                        <div
+                            class="absolute left-4 bottom-4 text-black w-[85%] h-[78px] bg-white rounded-lg text-center py-3">
+                            <p class="text-2xl font-semibold ">Baron Beach</p>
+                            <p class="text-[#959595]">Yogyakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[274px] h-[346px] relative hover:scale-105 transition-transform">
+                        <img class="w-full h-full object-cover " src="./images/place3.png" alt="">
+                        <div
+                            class="absolute left-4 bottom-4 text-black w-[85%] h-[78px] bg-white rounded-lg text-center py-3">
+                            <p class="text-2xl font-semibold ">Trisik Beach</p>
+                            <p class="text-[#959595]">Yogyakarta, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div class="main-container">
+            <div class="bg-[#2B6F3E] text-center text-white py-[85px] mb-[100px]">
+                <h3 class="text-3xl font-semibold mb-4">Traveling and Enjoy To Explore</h3>
+                <p class="text-lg mb-6">we have many beach to explore and promo special for you</p>
+                <a href="#" class="button bg-[#FFFFFF] px-5 py-[10px] text-[#2B6F3E] font-semibold rounded-lg ">Join
+                    Newsletter</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-[#2B6F3E] text-center text-white py-8 ">
+        ©2022 Travel · By Jason Huynh
+    </div>
+
+
+</body>
+
+</html>
